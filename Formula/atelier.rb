@@ -19,7 +19,7 @@ class Atelier < Formula
   end
 
   def install
-    bin.install Dir["atelier-cli-*/atelier"].first
+    bin.install "atelier"
   end
 
   test do
